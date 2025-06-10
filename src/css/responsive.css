@@ -1,0 +1,59 @@
+/* Add media query for screens smaller than 768px (typical for mobile phones) */
+@media (max-width: 768px) {
+  .top-header {
+    
+    align-items: center;
+  }
+
+  .top-header h2 {
+    font-size: 17px;
+  }
+
+  .top-header img {
+    margin-bottom: 6px;
+  }
+
+  .links {
+    align-items: center;
+    gap: 5px;
+  }
+
+  .top-header a {
+    font-size: 10px;
+    padding: 8px;
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  .container h3 {
+    margin-left: 15px;
+  }
+
+  .app-card {
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .div-geral {
+    flex-direction: column;
+  }
+}
+
+/* Add media query for screens smaller than 480px (smaller mobile phones) */
+@media (max-width: 480px) {
+  .top-header h2 {
+    font-size: 17px;
+  }
+
+  .top-header img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .container h3 {
+    margin-left: 15px;
+}
+}
