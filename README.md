@@ -1,6 +1,3 @@
-Claro! Aqui está um exemplo de um **README.md** para o seu site **"Sugestão de Apps Educacionais"** hospedado no GitHub Pages:
-
----
 
 # Sugestão de Apps Educacionais
 
