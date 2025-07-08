@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "NunitoItalic";
+	src: url(../fontes/Nunito-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "NunitoItalic"; 
+    background-color: #FEFDFB;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
+
+h1 {
+    margin-bottom: 6px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 9px;
+}
